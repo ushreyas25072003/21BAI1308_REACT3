@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/21BAI1308_REACT3/static/css/main.50b779cf.css",
+    "main.js": "/21BAI1308_REACT3/static/js/main.fb14eec1.js",
+    "index.html": "/21BAI1308_REACT3/index.html",
+    "main.50b779cf.css.map": "/21BAI1308_REACT3/static/css/main.50b779cf.css.map",
+    "main.fb14eec1.js.map": "/21BAI1308_REACT3/static/js/main.fb14eec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50b779cf.css",
+    "static/js/main.fb14eec1.js"
+  ]
+}
