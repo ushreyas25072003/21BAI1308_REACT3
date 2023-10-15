@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    --headfont:'Bebas Neue', sans-serif;
+    --mainfont: 'Poppins', sans-serif;
+    
+}
+
+html{
+    font-size:62.5%;
+    font-style: var(--mainfont);
+}
+
+.body{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(206, 179, 212);
+}
+.newcolor{
+    width:100%;
+    height:100vh;
+}
+.container{
+    width:90rem;
+    height:50rem;
+    border-radius: 2rem;
+    box-shadow: .3rem .3rem 3rem .2rem black;
+    background-color: rgb(255, 192, 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headingtext{
+    font-size: 5rem;
+    text-align: center;
+    margin:5rem;
+}
+
+.row{
+    width:100%;
+    padding:2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colors{
+    cursor: pointer;
+    width:4rem;
+    height:4rem;
+    border-radius: .8rem;
+    margin:0 0 3rem 0;
+}
+
+.pickcolor{
+    background-color: green;
+    font-size:2rem;
+    padding:1rem;
+    color: white;
+    border:none;
+    border-radius: .8rem;
+    cursor:pointer;
+}
